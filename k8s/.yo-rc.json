@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "invoice",
+      "notification",
+      "product",
+      "store"
+    ],
+    "directoryPath": "../",
+    "clusteredDbApps": [
+      "notification"
+    ],
+    "serviceDiscoveryType": false,
+    "jwtSecretKey": "NmExNzkwZjkzZWJkOTQ4NDllYzg2MDMxOTA0YjA2NTA2OWU2MWZmMjYyZmMxNWU2NmMxMDAxOTMxNjZmZGE5NzQwMzJjMWFhZTAyMzJlZTMzMjZjNjQyNDgzYzE0NTdlMzA5NQ==",
+    "dockerRepositoryName": "sendilkumarn",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": ".127.0.0.1.nip.io",
+    "monitoring": "no",
+    "istio": true
+  }
+}
